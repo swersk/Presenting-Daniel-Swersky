@@ -3,7 +3,6 @@ import Intro from './components/Intro.vue'
 </script>
 
 <template>
-  <HelloWorld msg="Hello." />
   <Intro />
 </template>
 
