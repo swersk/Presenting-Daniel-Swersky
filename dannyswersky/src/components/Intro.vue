@@ -3,18 +3,11 @@
     <span id="typedMessage" class="typed">{{ typed }}</span>
     <img src="/pic.jpg" />
     <vue-particles :options="particleOptions"></vue-particles>
-    <vue-particles
-      id="tsparticles"
-      :particlesInit="particlesInit"
-      :particlesLoaded="particlesLoaded"
-      :options="particleOptions"
-    ></vue-particles>
   </div>
 </template>
 
 <script>
 import Typed from "typed.js";
-import { loadSlim } from "tsparticles-slim";
 
 
 export default {
@@ -123,3 +116,6 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+</style>
