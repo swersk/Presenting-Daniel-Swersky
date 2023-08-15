@@ -1,5 +1,8 @@
 <template>
+  <div>
   <span id="typedMessage" class="typed">{{ typed }}</span>
+  <img src="/pic.jpg">
+</div>
 </template>
 
 <script>
