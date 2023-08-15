@@ -1,7 +1,9 @@
 <template>
   <div>
+    <p className="text-green-800 text-3xl">Hello</p>
   <span id="typedMessage" class="typed">{{ typed }}</span>
   <img src="/pic.jpg">
+
 </div>
 </template>
 
