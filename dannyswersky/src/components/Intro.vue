@@ -137,7 +137,7 @@ export default {
         "Hi, I am a systems thinker.",
         "Hi, I am a project manager.",
         "Hi, I am a proud #girldad.",
-        "Hi, I am a brother and son.",
+        "Hi, I am a brother & son.",
         "Hi, I am resilient.",
         "Hi, I am Daniel Swersky.",
       ],
