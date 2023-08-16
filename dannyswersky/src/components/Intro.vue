@@ -1,13 +1,15 @@
 <template>
-  <div class="h-screen w-screen flex flex-col-2 flex justify-start p-8">
-    <div class="mt-96 ml-24 text-6xl">
+
+
+  <div class="w-full h-full flex flex-col-2 flex justify-start p-8 bg-red-500">
+    <div class="mt-96 ml-24 text-6xl z-20 ">
       <span id="typedMessage" class="typed">{{ typed }}</span>
     </div>
-    <div class="absolute top-64 right-20">
+    <div class="absolute top-64 right-20 z-20">
       <img class="rounded-full h-96" src="/pic.jpg" />
     </div>
-  </div>
-  <div class="border-4 border-black">
+    <div class="h-full w-full bg-gradient-to-b from-slate-700 to-transparent fixed z-10 top-0 left-0"></div>
+    <div class="border-4 border-black">
       <Particles
         id="tsparticles-full"
         :particlesInit="particlesInit"
@@ -91,6 +93,10 @@
                 }"
       />
     </div>
+  </div>
+
+
+
 </template>
 
 <script>
