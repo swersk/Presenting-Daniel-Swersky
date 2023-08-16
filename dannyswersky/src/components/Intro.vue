@@ -93,6 +93,11 @@
                 }"
       />
     </div>
+    <div class="fixed bottom-5 left-1/2 transform -translate-x-50% z-50">
+        <a href="https://www.linkedin.com/in/danielswersky/" target="_blank" rel="noopener noreferrer">
+            <img src="/LI.png" alt="LinkedIn" class="w-16"/>
+        </a>
+    </div>
   </div>
 
 
