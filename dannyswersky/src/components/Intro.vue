@@ -113,15 +113,12 @@ export default {
   name: "Intro",
   data() {
     return {
-      typed: "",
+      typed: "Hi, I am Daniel Swersky.",
     };
   },
   methods: {
     async particlesInit(engine) {
       await loadSlim(engine);
-    },
-    particlesLoaded(particles) {
-      console.log("particles loaded", particles);
     },
   },
   mounted() {
@@ -135,7 +132,7 @@ export default {
         "Hi, I am a systems thinker.",
         "Hi, I am a project manager.",
         "Hi, I am a proud #girldad.",
-        "Hi, I am a brother, son and husband.",
+        "Hi, I am a husband, son and brother.",
         "Hi, I am Daniel Swersky.",
       ],
       typeSpeed: 50,
