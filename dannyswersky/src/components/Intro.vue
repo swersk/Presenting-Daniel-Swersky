@@ -68,7 +68,7 @@
                             enable: true,
                             outMode: 'bounce',
                             random: false,
-                            speed: 3,
+                            speed: 1,
                             straight: false
                         },
                         number: {
@@ -76,7 +76,7 @@
                                 enable: true,
                                 area: 800
                             },
-                            value: 80
+                            value: 60
                         },
                         opacity: {
                             value: 0.5
