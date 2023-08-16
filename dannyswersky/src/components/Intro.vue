@@ -131,7 +131,7 @@ export default {
         "Hi, I am an educator.",
         "Hi, I am a father.",
         "Hi, I am an eco-activist.",
-        "Hi, I am leadership advisor.",
+        "Hi, I am a leadership advisor.",
         "Hi, I am a systems thinker.",
         "Hi, I am a project manager.",
         "Hi, I am a proud #girldad.",
