@@ -6,7 +6,7 @@
       <span id="typedMessage" class="typed">{{ typed }}</span>
     </div>
     <div class="md:absolute md:top-64 md:right-20 z-20">
-      <img class="rounded-full h-96 shadow-2xl" src="/pic.jpg" />
+      <img class="rounded-full h-96 shadow-2xl" src="/pic.jpg" alt="Image of Daniel Swersky"/>
     </div>
     <div class="h-full w-full bg-gradient-to-b from-slate-800 to-transparent fixed z-10 top-0 left-0"></div>
     <div class="border-4 border-black">
@@ -94,8 +94,8 @@
       />
     </div>
     <div class="fixed bottom-5 left-1/2 transform -translate-x-50% z-50">
-        <a href="https://www.linkedin.com/in/danielswersky/" target="_blank" rel="noopener noreferrer">
-            <img src="/LI.png" alt="LinkedIn" class="w-14"/>
+        <a href="https://www.linkedin.com/in/danielswersky/" target="_blank" rel="noopener noreferrer" aria-label="Daniel Swersky's LinkedIn">
+            <img src="/LI.png" alt="LinkedIn to Daniel Swersky's profile" class="w-14"/>
         </a>
     </div>
   </div>
@@ -118,7 +118,6 @@ export default {
   },
   methods: {
     async particlesInit(engine) {
-      console.log("particles init: ", engine);
       await loadSlim(engine);
     },
     particlesLoaded(particles) {
@@ -131,14 +130,12 @@ export default {
         "Hi, I am Daniel Swersky.",
         "Hi, I am an educator.",
         "Hi, I am a father.",
-        "Hi, I am a husband.",
         "Hi, I am an eco-activist.",
         "Hi, I am leadership advisor.",
         "Hi, I am a systems thinker.",
         "Hi, I am a project manager.",
         "Hi, I am a proud #girldad.",
-        "Hi, I am a brother and son.",
-        "Hi, I am resilient.",
+        "Hi, I am a brother, son and husband.",
         "Hi, I am Daniel Swersky.",
       ],
       typeSpeed: 50,
