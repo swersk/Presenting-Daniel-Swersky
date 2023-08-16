@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      boxShadow: {
+        button: '0 3px 9px 0 rgba(0, 0, 0, 0.09)',
+      }
+    },
   },
   plugins: [],
 }
