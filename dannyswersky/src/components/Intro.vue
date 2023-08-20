@@ -1,6 +1,6 @@
 <template>
   <div class="w-full h-screen grid grid-rows-2 md:grid-cols-[2fr_1fr]">
-    <div class="flex justify-center  pt-16 md:absolute md:top-64 md:right-20 z-20">
+    <div class="flex justify-center  pt-16 p-1 md:absolute md:top-64 md:right-20 z-20">
       <img
         class="rounded-full h-52 shadow-2xl md:h-96 "
         src="/pic.jpg"
@@ -8,7 +8,7 @@
       />
     </div>
     <div class="flex justify-center md:block pt-4 md:mt-96 md:ml-24 md:text-7xl text-5xl z-20  ">
-      <div class="w-[90%] md:w-auto">
+      <div class="w-[90%] overflow-hidden">
       <span id="typedMessage" class="typed break-words">{{ typed }}</span>
     </div>
     </div>
@@ -99,7 +99,7 @@
         }"
       />
     </div>
-    <div class="flex justify-center p-8 md:fixed md:left-1/2 md:transform -translate-x-50% z-50">
+    <div class="flex justify-center p-6 md:fixed md:bottom-8 md:left-1/2 md:-translate-x-1/2 z-50">
       <a
         href="https://www.linkedin.com/in/danielswersky/"
         target="_blank"
