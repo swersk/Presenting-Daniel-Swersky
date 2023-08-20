@@ -10,7 +10,7 @@
       />
     </div>
     <div
-      class="flex justify-center text-6xl md:block md:mt-96 md:ml-24 md:text-7xl  z-20 "
+      class="flex justify-center text-5xl mt-9 md:block md:mt-96 md:ml-24 md:text-7xl  z-20 "
     >
       <div class="w-[90%] overflow-hidden">
         <span id="typedMessage" class="typed break-words">{{ typed }}</span>
