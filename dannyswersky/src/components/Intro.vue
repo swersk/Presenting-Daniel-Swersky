@@ -7,7 +7,7 @@
         alt="Image of Daniel Swersky"
       />
     </div>
-    <div class="flex justify-center md:block pt-4 md:mt-96 md:ml-24 md:text-7xl text-5xl z-20  ">
+    <div class="flex justify-center md:block pt-1 md:mt-96 md:ml-24 md:text-7xl text-5xl z-20  ">
       <div class="w-[90%] overflow-hidden">
       <span id="typedMessage" class="typed break-words">{{ typed }}</span>
     </div>
