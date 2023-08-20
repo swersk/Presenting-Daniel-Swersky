@@ -1,6 +1,6 @@
 <template>
-  <div class="w-full h-screen grid grid-rows-2 md:grid-cols-[2fr_1fr]">
-    <div class="flex justify-center  pt-16 p-1 md:absolute md:top-64 md:right-20 z-20">
+  <div class="w-full h-screen grid grid-rows-2 md:grid-cols-[2fr_1fr] ">
+    <div class="flex justify-center  pt-16 p-1 md:absolute md:top-64 md:right-20 z-20 ">
       <img
         class="rounded-full h-52 shadow-2xl md:h-96 "
         src="/pic.jpg"
@@ -15,7 +15,7 @@
     <div
       class="h-full w-full bg-gradient-to-b from-slate-800 to-transparent fixed z-10 top-0 left-0"
     ></div>
-    <div class="border-4 border-black">
+    <div>
       <Particles
         id="tsparticles-full"
         :particlesInit="particlesInit"
@@ -99,7 +99,7 @@
         }"
       />
     </div>
-    <div class="flex justify-center p-6 md:fixed md:bottom-8 md:left-1/2 md:-translate-x-1/2 z-50">
+    <div class="flex justify-center p-6 fixed bottom-8 left-1/2 -translate-x-1/2  z-50 ">
       <a
         href="https://www.linkedin.com/in/danielswersky/"
         target="_blank"
