@@ -3,9 +3,9 @@
     <div class="flex justify-center md:block md:mt-96 md:ml-24 md:text-7xl text-3xl z-20  ">
       <span id="typedMessage" class="typed">{{ typed }}</span>
     </div>
-    <div class="md:absolute md:top-64 md:right-20 z-20">
+    <div class="flex justify-center md:absolute md:top-64 md:right-20 z-20">
       <img
-        class="rounded-full h-96 shadow-2xl"
+        class=" rounded-full h-52 shadow-2xl md:h-96 "
         src="/pic.jpg"
         alt="Image of Daniel Swersky"
       />
