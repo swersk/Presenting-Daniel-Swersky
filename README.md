@@ -13,6 +13,6 @@
 
 # About
 
-I harnessed the capabilities of Typed.js and Particles.js to capture the essence of my brother's multifaceted life and his cherished value of connection.</br>
+I harnessed the capabilities of Typed.js and Particles.js to highlight my brother's many talents and roles, as well as his gift for creating meaningful connections with those around him.</br>
 
-👉 Live link: [Enjoy!](https://danielswersky.vercel.app/)
+ Live link 👉 [Have fun!](https://danielswersky.vercel.app/)
