@@ -99,7 +99,7 @@
         }"
       />
     </div>
-    <div class="flex justify-center p-6 fixed bottom-8 left-1/2 -translate-x-1/2  z-50 ">
+    <div class="flex justify-center p-1 fixed bottom-8 left-1/2 -translate-x-1/2  z-50 ">
       <a
         href="https://www.linkedin.com/in/danielswersky/"
         target="_blank"
