@@ -1,6 +1,6 @@
 <template>
   <div class="w-full h-screen grid grid-rows-2 md:grid-cols-[2fr_1fr]">
-    <div class="md:mt-96 md:ml-24 text-7xl z-20">
+    <div class="flex justify-center md:block md:mt-96 md:ml-24 md:text-7xl text-3xl z-20  ">
       <span id="typedMessage" class="typed">{{ typed }}</span>
     </div>
     <div class="md:absolute md:top-64 md:right-20 z-20">
